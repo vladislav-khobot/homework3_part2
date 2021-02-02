@@ -1,0 +1,103 @@
+body {
+    background-image: url("/Background.png");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-width: 55%;
+    min-height: 50%;
+    background-color: white;
+
+    position: absolute;
+    left: 22%;
+    top: 25%;
+}
+
+.formHead {
+    flex-grow: 1;
+    background-color: rgb(3, 3, 97);
+    max-height: 15%;
+    background-image: url(/Logo.png);
+    background-size: auto 50%;
+    background-repeat: no-repeat;
+    background-position: 20px;
+    border: 3px rgb(68, 68, 255) solid;
+
+    display: flex;
+}
+ul{
+    text-align: right;
+    padding: 1px 0 1px 1px;
+    margin: 0;
+    width: 100%;
+    max-height: 100%;
+}
+ul > li {
+    display: inline-block;
+    padding: 0 20px 0 20px;
+    min-height: 100%;
+}
+ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+.borderBottom {
+    border-bottom: 4px lightskyblue solid;
+}
+.formBody {
+    flex-grow: 2;
+    margin-top: 5%;
+}
+.formBody > h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: x-large;
+    font-weight: lighter;
+}
+.greySpan {
+    color: gray;
+}
+.blueSpan {
+    color:rgb(68, 68, 255);
+}
+.userData {
+    text-align: center;
+    margin-top: 50px;
+}
+input {
+    margin: 20px 0 5px 0;
+    border-style: none;
+    min-width: 40%;
+    outline: none;
+}
+.password {
+    border-bottom: 1px grey solid;
+}
+img {
+    width: 13px;
+    height: 15px;
+}
+button {
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgb(68, 68, 255);
+    color: white;
+    min-width: 200px;
+    min-height: 35px;
+    outline: none;
+    border: none;
+
+    background-image: url("/Layer_1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 8px 8px;
+    background-position-x: 170px;
+
+    margin-bottom: 20px;
+}
