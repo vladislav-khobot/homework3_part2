@@ -7,35 +7,36 @@
     <title>Homework #3 (part II)</title>
 </head>
 <body>
-    <form action="#submit" method="POST">
-        <div class="formHead">
-            <ul>
-                <li>
-                    <a href="#Register">Register</a>
-                </li>
-                <li class="borderBottom">
-                    <a href="#Login">Login</a>
-                </li>
-            </ul>
-        </div>
-        <div class="formBody">
-            <h2>
-                <span class="greySpan">Welcome </span>
-                <span class="blueSpan">back!</span>
-            </h2>
-            <div class="userData">
-                <div>
-                    <img src="/User.png">
-                    <input type="text" id="userName" name="userName" placeholder="Username" /> 
-                </div>
-                <div>
-                    <img src="/Lock.png">
-                    <input type="password" id="userPassword" name="userPassword" placeholder="Password" class="password"/>
-                </div>
-                <button type="submit" id="submit" name="Enter" value="Enter">Enter</button>
+    <div class="main">
+        <div class="form-head">
+            <div>
+                <img src="image/logo.png" alt="logo">    
             </div>
-            
+            <div class="links">
+                <a href="#Register">Register</a>
+                <a class = "login" href="#Login">Login</a>
+                <div class="borderBottom"></div>
+            </div>
         </div>
-    </form>        
+        <h2>
+            <span class="grey-span">Welcome </span>
+            <span class="blue-span">back!</span>
+        </h2>
+        <form action="#submit" method="POST">
+            <div class="form-body">
+                <div class="user-data">
+                    <div>
+                        <img src="/image/user.png">
+                        <input type="text" id="userName" name="userName" placeholder="Username" /> 
+                    </div>
+                    <div>
+                        <img src="image/lock.png">
+                        <input type="password" id="userPassword" name="userPassword" placeholder="Password" class="password"/>
+                    </div>
+                    <button type="submit" id="submit" name="Enter" value="Enter">Enter</button>
+                </div>
+            </div>
+        </form>
+    </div>        
 </body>
 </html>
